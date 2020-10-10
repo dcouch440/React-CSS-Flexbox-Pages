@@ -43,7 +43,7 @@ export const NavbarCompleteSidebar = () => {
                                                     <ul>
                                                         {objValues.map(
                                                             (data, i) => (
-                                                                <li>
+                                                                <li key={i}>
                                                                     <div>
                                                                         <a href='/' onClick={(event) => {
                                                                             event.preventDefault()

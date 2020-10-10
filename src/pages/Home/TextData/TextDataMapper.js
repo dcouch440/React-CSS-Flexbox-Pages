@@ -7,8 +7,8 @@ export const TextDataMapper = ({index, page}) => {
     return (
         <div>
             <h1>{pageData.title}</h1>
-            {pageData.pages[page].map(paragraphs => (
-                <p>
+            {pageData.pages[page].map((paragraphs, i) => (
+                <p key={i}>
                     {paragraphs}
                     <br />
                     <br />

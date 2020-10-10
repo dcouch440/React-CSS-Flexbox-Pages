@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components'
 import { BasicWrapper } from '../../styled/Wrapper/_BasicWrapper'
 
