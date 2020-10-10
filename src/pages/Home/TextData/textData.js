@@ -1,6 +1,6 @@
 export const textData = [
     {
-        title: 'Lorem ipsum & The Lorem Cat',
+        title: 'Lorem Ipsum & The Lorem Cat',
         pages : [
             [
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie, mauris et posuere porta, lorem dui elementum nibh, a elementum urna elit eget libero. Vestibulum luctus nisi sit amet velit faucibus, non porttitor neque sagittis. Suspendisse cursus nulla vitae eros molestie tincidunt. Vivamus tristique accumsan consectetur. Donec eget turpis gravida, pellentesque nisl vitae, posuere libero. Mauris eget magna sit amet sem aliquet consequat. Nunc felis ex, viverra ut hendrerit et, cursus eu nisl. Maecenas venenatis imperdiet pellentesque. Integer consequat vitae dui a commodo. Donec luctus eget mi molestie aliquam. Nunc ornare leo lacus, id gravida turpis congue non. In gravida nec erat et accumsan. Nunc gravida nisi in sapien viverra, iaculis mattis lacus tristique. Proin vitae orci eget enim ornare consectetur at quis dolor. Aenean quis odio sed arcu porttitor placerat. Sed consectetur vestibulum turpis ut luctus.',
@@ -108,7 +108,7 @@ export const textData = [
         ],
     },
     {
-        title: 'Lorem ipsum & The Lorem Dog',
+        title: 'Lorem Ipsum & The Lorem Dog',
         pages : [
             [
                 'Quisque quis massa ut lacus fringilla molestie. Suspendisse sodales consequat libero ac iaculis. Etiam ullamcorper faucibus pellentesque. Suspendisse in sollicitudin ante. Phasellus a pulvinar lacus. Maecenas enim nisl, lobortis et vestibulum a, lobortis in nisl. Donec in commodo enim. Pellentesque gravida nisi sed dui sodales, ac pretium sem consequat. Nam in lectus est. Nunc fermentum volutpat nisl imperdiet rhoncus. Aenean ornare ligula pharetra, euismod nisl id, porta dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
@@ -265,7 +265,7 @@ export const textData = [
         ],
     },
     {
-        title: 'Lorem ipsum & The Lorem Cow',
+        title: 'Lorem Ipsum & The Lorem Cow',
         pages : [
             [
                 'Praesent fermentum elit enim, non ornare lorem blandit a. Vestibulum rhoncus vel eros vel tristique. Aenean vitae mi nec ipsum fringilla condimentum. In vel venenatis eros. Aliquam erat volutpat. Suspendisse potenti. Etiam ante sapien, cursus quis nunc eu, fringilla imperdiet libero.',
