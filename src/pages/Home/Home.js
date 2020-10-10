@@ -42,7 +42,6 @@ export const Home = () => {
         document.querySelector('.page-container').scrollTop = 0;
     }, [currentPage])
 
-    console.log(text)
     return (
         <>
             <HomeStyles>
@@ -68,10 +67,9 @@ export const Home = () => {
                             </div>
                         </div>
                     </div>
-                <button className='menu-button' onClick={() => setNavOpen(prev => !prev)}>
-                    {navOpen === false ? '🢀' : '🢂'}
-                </button>
-                    
+                    <button className='menu-button' onClick={() => setNavOpen(prev => !prev)}>
+                        {navOpen === false ? '🢀' : '🢂'}
+                    </button>
                 </div>
             </HomeStyles>
         </>
