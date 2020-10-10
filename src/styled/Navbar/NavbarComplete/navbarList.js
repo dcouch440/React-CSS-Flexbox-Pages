@@ -1,6 +1,6 @@
 export const listItems = [
     {
-        head: 'LIST',
+        head: 'LIST (★)',
         1: 'Lorem Ipsum',
         2: 'Lorem Ipsum',
         3: 'Lorem Ipsum',
