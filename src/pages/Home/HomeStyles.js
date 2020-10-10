@@ -1,5 +1,5 @@
-import styled from 'styled-components'
 import { BasicWrapper } from '../../styled/Wrapper/_BasicWrapper'
+import styled from 'styled-components'
 
 export const HomeStyles = styled(BasicWrapper)`
         width: 100vw;
