@@ -2,7 +2,7 @@ import { BasicWrapper } from '../../styled/Wrapper/_BasicWrapper'
 import styled from 'styled-components'
 
 export const HomeStyles = styled(BasicWrapper)`
-        width: 100vw;
+    width: 100vw;
     height: calc(100vh - 1%);
     overflow-y: hidden;
     .menu-button {
@@ -24,6 +24,7 @@ export const HomeStyles = styled(BasicWrapper)`
         }
     }
     .page-container {
+        z-index: 5;
         position: relative;
         display: flex;
         background-color: #fff7ec;      
@@ -35,7 +36,6 @@ export const HomeStyles = styled(BasicWrapper)`
         box-shadow: inset -4px 3px 3px 0px #2a2d3485, 20px 0px 20px 20px #00000026;
         overflow: scroll;
         overflow-x: hidden;
-        z-index: 5;
     }
     .content {
         z-index: 5;
@@ -118,8 +118,8 @@ export const HomeStyles = styled(BasicWrapper)`
     }
     &::before,
     &::after {
-        z-index: -1;
         content: '';
+        z-index: -1;
         position: absolute;
         top: 0;
         right: 0;
